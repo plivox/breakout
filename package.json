@@ -1,8 +1,12 @@
 {
   "name": "breakout",
   "version": "0.1.0",
+  "type": "module",
   "description": "A simple breakout game built with JavaScript.",
   "license": "MIT",
+  "scripts": {
+    "build": "rollup -c"
+  },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^29.0.2",
     "@rollup/plugin-node-resolve": "^16.0.3",

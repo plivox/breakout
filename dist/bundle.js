@@ -294,5 +294,5 @@
 
   animate();
 
-}());
+})();
 //# sourceMappingURL=bundle.js.map
